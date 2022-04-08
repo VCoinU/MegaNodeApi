@@ -2,7 +2,7 @@ var request = require('request');
 
 var url ='https://bsc-mainnet.nodereal.io/v1/036c0e9172344110aaa55fb6f8b84433'; //Modify url
 var round = 100; //Default 100 transection 
-var walletAddress ="0x60a9506F9c8FBf19f3cC33495dA0411e0a3E4a95";
+var walletAddress ="0x60a9506F9c8FBf19f3cC33495dA0411e0a3E4a95"; //Modify wallet address
 var options = {
   'method': 'POST',
   'url': url,
